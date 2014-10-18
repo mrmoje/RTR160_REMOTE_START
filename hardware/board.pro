@@ -1,4 +1,4 @@
-update=Sat 13 Sep 2014 11:51:47 AM EAT
+update=Sat 18 Oct 2014 07:06:22 PM EAT
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=/home/james/kicad/kicad-library/Opendous_KiCad_Libraries/library/opendous
+LibName32=/home/james/kicad/libs/kicadlibrary/vreg
