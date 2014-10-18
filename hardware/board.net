@@ -1,0 +1,149 @@
+# EESchema Netlist Version 1.1 created  Tue 19 Aug 2014 03:13:49 AM EAT
+(
+ ( /53F13EA7 $noname$ C1 100nF
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /53F13ECE $noname$ C2 100nF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /53F1207E $noname$ C3 100nF
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /53F1363F $noname$ D1 1N007
+  ( 1 N-000023 )
+  ( 2 N-000024 )
+ )
+ ( /53F28C48 $noname$ D2 LED
+  ( 1 /LED )
+  ( 2 N-000019 )
+ )
+ ( /53F13E56 $noname$ F1 0.16A
+  ( 1 +12V )
+  ( 2 N-000023 )
+ )
+ ( /53F113F7 $noname$ P1 CONN_4
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 /P1_RX )
+  ( 4 /P1_TX )
+ )
+ ( /53F11E9D $noname$ P2 CONN_6
+  ( 1 N-000014 )
+  ( 2 N-000006 )
+  ( 3 N-000002 )
+  ( 4 N-000003 )
+  ( 5 GND )
+  ( 6 +5V )
+ )
+ ( /53F11F1C $noname$ P3 CONN_6
+  ( 1 /P3_1 )
+  ( 2 +5V )
+  ( 3 GND )
+  ( 4 /P3_4 )
+  ( 5 /P3_5 )
+  ( 6 /P3_6 )
+ )
+ ( /53F0F6F2 TO92 Q1 BC547
+  ( 1 +5V )
+  ( 2 N-000012 )
+  ( 3 N-000011 )
+ )
+ ( /53F103D6 $noname$ R1 1k
+  ( 1 /BZR )
+  ( 2 N-000012 )
+ )
+ ( /53F120A3 $noname$ R2 10k
+  ( 1 +5V )
+  ( 2 /P3_1 )
+ )
+ ( /53F29102 $noname$ R3 1k
+  ( 1 GND )
+  ( 2 N-000019 )
+ )
+ ( /53F0FF84 $noname$ SP1 SPEAKER
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /53F0F681 $noname$ U1 PIC16F628A
+  ( 1 N-000006 )
+  ( 2 N-000014 )
+  ( 3 ? )
+  ( 4 /P3_1 )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 /P1_RX )
+  ( 8 /P1_TX )
+  ( 9 /LED )
+  ( 10 /P3_6 )
+  ( 11 /BZR )
+  ( 12 /P3_5 )
+  ( 13 /P3_4 )
+  ( 14 +5V )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 N-000003 )
+  ( 18 N-000002 )
+ )
+ ( /53F12F10 $noname$ U2 7805
+  ( GND GND )
+  ( VI N-000024 )
+  ( VO +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Q1
+ TO92*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

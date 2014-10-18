@@ -1,0 +1,21 @@
+i1_printf: CODE, 314 0 83
+i1_putch: CODE, 753 0 4
+__stringtab: STRING, 397 0 16
+__stringdata: STRING, 413 0 57
+_ISR: CODE, 26 0 201
+_putch: CODE, 742 0 6
+i1_buzz_ok: CODE, 659 0 23
+_main: CODE, 748 0 5
+_strcmp: CODE, 562 0 38
+__initialization: CODE, 17 0 7
+_buzz_ok: CODE, 634 0 25
+_set_portAbit: CODE, 523 0 39
+_USART_getc: CODE, 713 0 13
+i1_USART_putc: CODE, 734 0 8
+_printf: CODE, 227 0 87
+_isupper: CODE, 699 0 14
+_USART_putc: CODE, 726 0 8
+_isalpha: CODE, 682 0 17
+_buzz_error: CODE, 470 0 53
+_BOARD_init: CODE, 600 0 34
+Total: 738

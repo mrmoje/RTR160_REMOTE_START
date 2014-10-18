@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 19 Aug 2014 09:02:10 PM EAT
+
+BeginCmp
+TimeStamp = /53F13EA7;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F13ECE;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F1207E;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F1363F;
+Reference = D1;
+ValeurCmp = 1N007;
+IdModule  = Diodes_ThroughHole:Diode_P600_Vertical_AnodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F28C48;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-8MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F13E56;
+Reference = F1;
+ValeurCmp = 0.16A;
+IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F113F7;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F11E9D;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F11F1C;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F0F6F2;
+Reference = Q1;
+ValeurCmp = BC547;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F103D6;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F120A3;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F29102;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F0FF84;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = Buzzers_Beepers:MagneticBuzzer_ProSignal_ABI-009-RC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F0F681;
+Reference = U1;
+ValeurCmp = PIC16F628A;
+IdModule  = Sockets_DIP:DIP-18__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F12F10;
+Reference = U2;
+ValeurCmp = 7805;
+IdModule  = moje's kicad footprints:78XX;
+EndCmp
+
+EndListe
