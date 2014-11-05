@@ -1,66 +1,297 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 19 Aug 2014 09:02:10 PM EAT
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Wed 05 Nov 2014 02:37:36 AM EAT
+
+BeginCmp
+TimeStamp = /53F113F7;
+Reference = BT1;
+ValeurCmp = CONN_4;
+IdModule  = Connect:SIL-4;
+EndCmp
 
 BeginCmp
 TimeStamp = /53F13EA7;
 Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_ThroughHole:Capacitor10x25RM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F13ECE;
 Reference = C2;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+ValeurCmp = 6800uF;
+IdModule  = Capacitors_ThroughHole:Capacitor16x25RM7.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F1207E;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM5_RM2;
+IdModule  = Capacitors_ThroughHole:Capacitor7.5MMDiscRM5;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F1363F;
+TimeStamp = /54585EC1;
+Reference = C4;
+ValeurCmp = C_MINI;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54585D8E;
+Reference = C5;
+ValeurCmp = C_MINI;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54585C06;
+Reference = C6;
+ValeurCmp = C_MINI;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54583944;
+Reference = C7;
+ValeurCmp = C_MINI;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54598E1A;
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:Capacitor8x13RM3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54598E7A;
+Reference = C9;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:Capacitor8x13RM3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459CD98;
 Reference = D1;
-ValeurCmp = 1N007;
-IdModule  = Diodes_ThroughHole:Diode_P600_Vertical_AnodeUp;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459CE17;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459CEFE;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459CE91;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /544291E1;
+Reference = D5;
+ValeurCmp = DIODESCH;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F28C48;
-Reference = D2;
+Reference = D6;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-8MM;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /545873B3;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54587428;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /545874A1;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54587730;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458751E;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /545876A9;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458759B;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54587618;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /545865BB;
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586526;
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /545864A1;
+Reference = D17;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458472A;
+Reference = D18;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F13E56;
 Reference = F1;
-ValeurCmp = 0.16A;
-IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_inline_Type-I;
+ValeurCmp = 1A;
+IdModule  = Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F113F7;
+TimeStamp = /5443F4AB;
+Reference = IC1;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582232;
+Reference = IC2;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /545822B3;
+Reference = IC3;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /545822EF;
+Reference = IC4;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582328;
+Reference = IC5;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /545823B4;
+Reference = IC6;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458240B;
+Reference = IC7;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582BA2;
+Reference = IC8;
+ValeurCmp = PC817;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54429228;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = Inductors:INDUCTOR_V;
+EndCmp
+
+BeginCmp
+TimeStamp = /545AEC09;
 Reference = P1;
-ValeurCmp = CONN_4;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+ValeurCmp = SCREW TERM 1;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F11E9D;
+TimeStamp = /545AFCB9;
 Reference = P2;
-ValeurCmp = CONN_6;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+ValeurCmp = SCREW TERM 2;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /545AFD22;
+Reference = P3;
+ValeurCmp = SCREW TERM 3;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_3pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /53F11F1C;
-Reference = P3;
+Reference = Pickit3;
 ValeurCmp = CONN_6;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+IdModule  = Connect:SIL-6;
 EndCmp
 
 BeginCmp
@@ -68,6 +299,34 @@ TimeStamp = /53F0F6F2;
 Reference = Q1;
 ValeurCmp = BC547;
 IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458198E;
+Reference = Q2;
+ValeurCmp = RFP50N06;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54581A5C;
+Reference = Q3;
+ValeurCmp = RFP50N06;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54581B2D;
+Reference = Q4;
+ValeurCmp = RFP50N06;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54581BE7;
+Reference = Q5;
+ValeurCmp = RFP50N06;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
@@ -92,6 +351,34 @@ IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /5443F9FA;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582D22;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582D98;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54582E2B;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM20mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /53F0FF84;
 Reference = SP1;
 ValeurCmp = SPEAKER;
@@ -99,17 +386,31 @@ IdModule  = Buzzers_Beepers:MagneticBuzzer_ProSignal_ABI-009-RC;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F0F681;
+TimeStamp = /54429063;
 Reference = U1;
+ValeurCmp = LM2576;
+IdModule  = Sockets_WAGO734:WAGO_734_5pin_Straight_RuggedPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F0F681;
+Reference = U2;
 ValeurCmp = PIC16F628A;
 IdModule  = Sockets_DIP:DIP-18__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F12F10;
-Reference = U2;
-ValeurCmp = 7805;
-IdModule  = moje's kicad footprints:78XX;
+TimeStamp = /54583F67;
+Reference = U3;
+ValeurCmp = LM7810ACT;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_MountedFromLS_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /54429DD8;
+Reference = VR1;
+ValeurCmp = VR;
+IdModule  = Capacitors_ThroughHole:Capacitor12MMDiscRM7.75;
 EndCmp
 
 EndListe
