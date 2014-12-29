@@ -1,0 +1,67 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mon 29 Dec 2014 04:09:24 AM EAT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+U2  /CSW_2 /CSW_3 ? /PK3_1 DGND ? /P1_RX /P1_TX /LED /PK3_6 /BZR /PK3_5 /PK3_4 +5V ? ? /PWRSW /CSW_1 PIC16F628A		
+Q1  +5V Net-_Q1-Pad2_ Net-_Q1-Pad3_ BC547		
+SP1  Net-_Q1-Pad3_ DGND SPEAKER		
+R1  /BZR Net-_Q1-Pad2_ 1k		
+BT1  +5V DGND /P1_RX /P1_TX CONN_4		
+Pickit3  /PK3_1 +5V DGND /PK3_4 /PK3_5 /PK3_6 CONN_6		
+C3  DGND +5V 100nF		
+R2  +5V /PK3_1 10k		
+F1  /S0_I Net-_D2-Pad1_ 1A		
+C1  Net-_C1-Pad1_ DGND 100uF		
+C2  +5V DGND 6800uF		
+D6  /LED Net-_D6-Pad2_ LED		
+R3  DGND Net-_D6-Pad2_ 1k		
+D5  DGND Net-_D5-Pad2_ DIODESCH		
+L1  Net-_D5-Pad2_ +5V INDUCTOR		
+VR1  DGND Net-_C1-Pad1_ VR		
+IC1  Net-_D7-Pad2_ Net-_IC1-Pad2_ /S0_O Net-_IC1-Pad4_ PC817		
+R4  Net-_IC1-Pad2_ /PWRSW R		
+IC2  Net-_IC1-Pad2_ Net-_D8-Pad1_ Net-_IC1-Pad4_ Net-_C4-Pad2_ PC817		
+IC3  Net-_D9-Pad2_ Net-_IC3-Pad2_ /S1_O Net-_IC3-Pad4_ PC817		
+IC4  Net-_IC3-Pad2_ Net-_D10-Pad1_ Net-_IC3-Pad4_ Net-_C5-Pad2_ PC817		
+IC5  Net-_D11-Pad2_ Net-_IC5-Pad2_ /S2_O Net-_IC5-Pad4_ PC817		
+IC6  Net-_IC5-Pad2_ Net-_D12-Pad1_ Net-_IC5-Pad4_ Net-_C6-Pad2_ PC817		
+IC7  Net-_D13-Pad2_ Net-_IC7-Pad2_ /S3_O Net-_IC7-Pad4_ PC817		
+IC8  Net-_IC7-Pad2_ Net-_D14-Pad1_ Net-_IC7-Pad4_ Net-_C7-Pad2_ PC817		
+R5  Net-_IC3-Pad2_ /CSW_1 R		
+R6  Net-_IC5-Pad2_ /CSW_2 R		
+R7  Net-_IC7-Pad2_ /CSW_3 R		
+U3  Net-_C8-Pad1_ AGND +10V LM7810ACT		
+D18  +10V Net-_C7-Pad2_ DIODE		
+D17  +10V Net-_C6-Pad2_ DIODE		
+D16  +10V Net-_C5-Pad2_ DIODE		
+D15  +10V Net-_C4-Pad2_ DIODE		
+D7  +5V Net-_D7-Pad2_ LED		
+D8  Net-_D8-Pad1_ DGND LED		
+D9  +5V Net-_D9-Pad2_ LED		
+D11  +5V Net-_D11-Pad2_ LED		
+D13  +5V Net-_D13-Pad2_ LED		
+D14  Net-_D14-Pad1_ DGND LED		
+D12  Net-_D12-Pad1_ DGND LED		
+D10  Net-_D10-Pad1_ DGND LED		
+C7  /S3_O Net-_C7-Pad2_ C_MINI		
+C6  /S2_O Net-_C6-Pad2_ C_MINI		
+C5  /S1_O Net-_C5-Pad2_ C_MINI		
+C4  /S0_O Net-_C4-Pad2_ C_MINI		
+C8  Net-_C8-Pad1_ AGND CP		
+C9  +10V AGND CP		
+D1  AGND Net-_C1-Pad1_ DIODE		
+D2  Net-_D2-Pad1_ Net-_C1-Pad1_ DIODE		
+D4  DGND Net-_D2-Pad1_ DIODE		
+D3  DGND AGND DIODE		
+P1  /S0_I /S0_O /S1_I SCREW TERM 1		
+P2  /S1_O /S2_I /S2_O SCREW TERM 2		
+P3  /S3_I /S3_O AGND SCREW TERM 3		
+U1  Net-_C1-Pad1_ Net-_D5-Pad2_ DGND +5V DGND LM2576		
+Q4  /S2_I Net-_IC5-Pad4_ /S2_O RFP50N06		
+Q3  /S1_I Net-_IC3-Pad4_ /S1_O RFP50N06		
+Q2  /S0_I Net-_IC1-Pad4_ /S0_O RFP50N06		
+Q5  /S3_I Net-_IC7-Pad4_ /S3_O RFP50N06		
+
+.end
